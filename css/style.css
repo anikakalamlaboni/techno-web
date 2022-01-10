@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+h1{
+	font-family: 'Dancing Script', cursive; 
+}
+nav{
+	z-index: 1;
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.carousel-item img{
+     width: 100%;
+     height: 80vh;
+     background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8));
+     background-attachment:fixed;
+     background-size: cover;
+}
+.filter-gallery{
+	padding: 100px;
+}
+.portfolio-menu{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.portfolio-menu ul li{
+	list-style: none; 
+	display: inline-block;
+	margin: 20px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: 0.5s ease;
+	text-align: center;
+}
+.portfolio-menu ul li:hover{
+	color: white;
+	background: #e74c3c;
+	border-radius: 8px;
+}
+li.active{
+	color: white;
+	background: #e74c3c;
+	border-radius: 8px;
+}
+.portfolio-item{
+	width: 100%;
+	padding-left: 70px;
+}
+.portfolio-item .item{
+	width: 360px;
+	height: 360px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 30px;
+
+}
+.portfolio-item .item img{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+
+.member{
+	width: 	100%;
+	padding: 20px 100px;
+	font-family: sans-serif;
+}
+
+.member-info{
+	text-align: center;
+}
+.member-info h1{
+	font-size: 2.5cm; 
+}
+.member-info h1 span{
+	color: #e74c3c;
+}
+.member-card{
+	text-align: center; 
+	padding-top: 50px; 
+	width: 50%; 
+	margin: auto;
+
+}
+.member-card p{
+	margin: 20px 0px; 
+	line-height: 2em;
+}
+.member-card h2{
+	margin: 20px 0px;
+}
+.m-images{
+	width: 100%;
+	display: flex;
+	margin: 20px 0px;
+	
+	overflow: hidden;
+}
+.m-images img{
+	width: 300px;
+	height: 200px;
+	cursor: pointer;
+	padding-left: 15px;
+	transition: 0.4s ease-in-out;
+}
+.m-images img:hover{
+	transform: scale(1.5);
+}
+.container h1 span{
+	color: #e74c3c;
+}
+
+
+.footer{
+	width: 100%;
+    height: 50%;
+	float: left;
+	padding: 20px 0px;
+	background: #000;
+}
+
+
+.footer p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #0a5db6;
+	text-align: center;
+}
+
+
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
